@@ -111,8 +111,16 @@ params:
             id:
 
     widgets:
-        homepage: []
-        page: []
+        enabled:
+            - search
+            - archives
+            - tag-cloud
+
+        archives:
+            limit: 5
+
+        tagCloud:
+            limit: 10
 
     opengraph:
         twitter:
